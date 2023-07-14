@@ -10,5 +10,3 @@ select * from employees where month(birth_date) = 12 and day(birth_date) = 25 an
 
 select *, datediff(now(), hire_date) as days_worked from employees where year(hire_date) >= 1990 and year (hire_date) <= 1999 and month(birth_date) = 12 and day(birth_date) = 25 order by hire_date, birth_date;
 
-
-
