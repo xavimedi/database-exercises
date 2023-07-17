@@ -27,4 +27,4 @@ from employees as e
     join departments as d on dm.dept_no = d.dept_no
     join salaries s on e.emp_no = s.emp_no
     where dm.to_date = '9999-01-01' and s.to_date = '9999-01-01'
-    order by dept_name
+    order by dept_name;
